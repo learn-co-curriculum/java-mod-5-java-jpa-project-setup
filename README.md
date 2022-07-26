@@ -30,12 +30,12 @@ the project and add these dependencies:
     <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-entitymanager</artifactId>
-        <version>5.6.4.Final</version>
+        <version>5.6.8.Final</version>
     </dependency>
     <dependency>
         <groupId>com.h2database</groupId>
         <artifactId>h2</artifactId>
-        <version>1.4.200</version>
+        <version>2.1.212</version>
         <scope>compile</scope>
     </dependency>
 </dependencies>
