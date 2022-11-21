@@ -11,7 +11,9 @@
 We will be creating a new Maven project in this lesson and adding the
 dependencies for using JPA to interact with a PostgreSQL database.
 
-## CODE ALONG - Create a New Project.
+## CODE ALONG
+
+## Create a New Project.
 
 1. Open IntelliJ and click on “Create a New Project”
 2. Name the project “jpa-example”.
@@ -74,23 +76,40 @@ The `hibernate-entitymanager` provides both the JPA interface and a concrete
 implementation of the classes required to interact with the PostgreSQL database.
 
 
-## Add JpaMain Class
+## Create new classes JpaWriteStudent and JpaReadStudent
 
 1. Create a package in the “java” folder called “org.example”.
-2. Create a `JpaMain.java` file in the “org.example” package.
-3. Add the following to the file:
+2. Create a new class `JpaWriteStudent` in the “org.example” package.
+3. Add a `main` method  to the class: 
 
 ```java
 package org.example;
 
-public class JpaMain {
+public class JpaWriteStudent {
     public static void main(String[] args) {
 
     }
+
+}
+```
+
+4. Create a new class `JpaReadStudent` in the “org.example” package.
+5. Add a `main` method  to the class:  
+
+```java
+package org.example;
+
+public class JpaReadStudent {
+    public static void main(String[] args) {
+
+    }
+
 }
 ```
 
 ## Conclusion
 
-We have created a new Maven project and added two dependencies required to
+We created a new Maven project and added two dependencies required to
 use Hibernate to communicate with the PostgreSQL database from our Java app.
+The new classes `JpaReadStudent` and `JpaWriteStudent` will be used in the
+next lesson to persist an object to the database.
