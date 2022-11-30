@@ -76,7 +76,7 @@ The `hibernate-entitymanager` provides both the JPA interface and a concrete
 implementation of the classes required to interact with the PostgreSQL database.
 
 
-## Create new classes JpaCreateStudent and JpaReadStudent
+## Create new class JpaCreateStudent
 
 1. Create a package in the “java” folder called “org.example”.
 2. Create a new class `JpaCreateStudent` in the “org.example” package.
@@ -93,23 +93,9 @@ public class JpaCreateStudent {
 }
 ```
 
-4. Create a new class `JpaReadStudent` in the “org.example” package.
-5. Add a `main` method  to the class:  
-
-```java
-package org.example;
-
-public class JpaReadStudent {
-    public static void main(String[] args) {
-
-    }
-
-}
-```
-
 ## Conclusion
 
 We created a new Maven project and added two dependencies required to
 use Hibernate to communicate with the PostgreSQL database from our Java app.
-The new classes `JpaCreateStudent` and `JpaReadStudent` will be used in the
+The new class `JpaCreateStudent` will be used in the
 next lesson to persist an object to the database.
